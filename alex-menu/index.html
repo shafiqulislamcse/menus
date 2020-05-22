@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alex menu | SHAFIQ</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- header start -->
+	<header>
+		<div class="container">
+			<div class="brand-name">
+				<a href="#">
+					Logo
+				</a>
+			</div>
+			<div class="toggle">MENU</div>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Works</a></li>
+					<li><a href="#" class="last-child">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- header end -->
+
+	<section class="section">
+		<div class="btn">
+			<a href="../index.html">Home</a>
+		</div>
+	</section>
+
+
+
+
+	<script src="js/jquery.js"></script>
+	<script>
+		$('document').ready(function(){
+
+			$('.toggle').click(function(){
+				$('nav').toggleClass('active');
+			});
+		});
+	</script>
+</body>
+</html>

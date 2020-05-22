@@ -1,0 +1,109 @@
+/*Global css*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+/*Global css*/
+
+/*header css*/
+header {
+	background-color: #121B2A;
+	box-shadow: 4px 5px 12px #000;
+}
+header::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header .brand-name{
+	width: 20%;
+	float: left;
+}
+header .brand-name img{
+	width: 100%;
+	padding: 5px 15px;
+}
+header nav{
+	width: 80%;
+	float: left;
+}
+header nav ul{
+	list-style-type: none;
+	text-align: right;
+}
+header nav ul li{
+	display: inline;
+}
+header nav ul li a {
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	display: inline-block;
+	padding: 64px 29px 0px 7px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header nav ul li a:hover, header nav ul li a.active{
+	color: #0172B4;
+}
+
+.login {
+	width: 25%;
+	position: absolute;
+	top: 0;
+	right: 149px;
+}
+.login::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.login .client{
+	width: 50%;
+	float: left;
+	background-color: #fff;
+	text-align: center;
+}
+.login .client a {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 10px;
+}
+.login .employee{
+	width: 50%;
+	float:left;
+	background-color: #0177BD;
+	text-align: center;
+}
+.login .employee a{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 10px;
+}
+/*header css*/
+
+
+.section{
+	padding: 100px 15px;
+	text-align: center;
+}
+.section a{
+	font-size: 20px;
+	text-transform: uppercase;
+}

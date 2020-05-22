@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dream menu | SHAFIQ</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- header start -->
+	<header>
+		<div class="container">
+			<div class="brand-name">
+				<a href="#">
+					<img src="images/logo.png" alt="logo" style="width: 256px;">
+				</a>
+			</div>
+			<div class="toggle">MENU</div>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Typography</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Page Layouts</a></li>
+					<li><a href="#">Page Elements</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- header end -->
+
+	<section class="section">
+		<div class="btn">
+			<a href="../index.html">Home</a>
+		</div>
+	</section>
+
+	<script src="js/jquery.js"></script>
+	<script>
+		$('document').ready(function(){
+			$('.toggle').click(function(){
+				$('nav').toggleClass('active');
+			});
+		});
+	</script>
+</body>
+</html>
